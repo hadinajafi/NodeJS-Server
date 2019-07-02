@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-server",
+  "version": "1.0.0",
+  "description": "A test server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadinajfi77/NodeJS-Server.git"
+  },
+  "author": "Hadi Najafi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hadinajfi77/NodeJS-Server/issues"
+  },
+  "homepage": "https://github.com/hadinajfi77/NodeJS-Server#readme"
+}
