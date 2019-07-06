@@ -1,6 +1,12 @@
-const http = require('http');
+const express = require('express');
 
-const routes = require('./routes');
+const adminRoutes = require('./routes/admin');
+const shopRoutes = require('./routes/shop');
 
-http.createServer(routes).listen(3000);
-console.log("server running at port 3000");
+const app = express();
+
+app.use(adminRoutes);
+app.use(shopRoutes);
+
+app.listen(3000);
+console.log("Server running at port 3000");
