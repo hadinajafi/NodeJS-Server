@@ -25,7 +25,7 @@ exports.getProducts = (req, res, next) => {
 		res.render('admin/product-list', {
 			prods: products,
 			pageTitle: 'Admin Products',
-			path: '/admin/product-list'
+			path: '/admin/products'
 		});
 	});
 };

@@ -11,5 +11,7 @@ router.get('/cart', shopController.getCart);
 router.get('/orders', shopController.getOrders);
 router.get('/products', shopController.getProducts);
 router.get('/checkout', shopController.getCheckout);
+router.get('/products/delete');
+router.get('/products/:productId', shopController.getProduct);
 
 module.exports = router;
